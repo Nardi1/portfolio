@@ -134,13 +134,13 @@ footer{
 	transition-duration:.3s ;
 }
 .btn-home{
-	border:1px solid #fff;
-	background-color: transparent;
+	border:1px solid #fff !important;
+	background-color: transparent !important;
 	transition-duration:.3s ;
 }
 .btn-home:hover{
-	border:1px solid #fff;
-	background-color: transparent;
+	border:1px solid #fff !important;
+	background-color: transparent !important;
 	transition-duration:.3s ;
 	transform: scale(1.1);	
 }
