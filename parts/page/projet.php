@@ -14,12 +14,12 @@
                         while($row = $result->fetch_assoc()) { 
                         	?>
                         		
-        <div class="col-sm-6">
+        <div class="col-sm-6 bloc-projet-left">
 			<img class="img-responsive center-block" src="<?=$row['image']?>">
 		</div>
-		 <div class="col-sm-6">
-			<p class="text-center"><?=$row['nom']?></p>
-			<p class="text-center"><?=$row['description']?></p>
+		 <div class="col-sm-6 bloc-projet-right">
+			<p class="text-center title-project"><?=$row['nom']?></p>
+			<p class="text-center p-project"><?=$row['description']?></p>
 
 		</div>
 							<?php } ?>
