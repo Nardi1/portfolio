@@ -8,7 +8,6 @@
                 <div class="col-xs-6 col-sm-6">
 
                     <p class="footer-copyright text-right">
-                     <a href="" target="_blank"><i id="facebook-nav" class="fa fa-facebook" style="padding: 0px; padding-right: 30px"></i></a>
                     Mentions légals
                      </p>
                 </div>
