@@ -28,4 +28,3 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-<div style="padding-bottom: 100px"></div>

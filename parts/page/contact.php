@@ -1,3 +1,4 @@
+<div class="padd100">
 <div class="container">
   <div class="col-sm-6">
     <h2 class="titre-contact">Laissez moi un message</h2>
