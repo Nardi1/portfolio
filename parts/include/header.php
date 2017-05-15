@@ -14,7 +14,7 @@
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <div class="navbar-header page-scroll">
-                <a class="navbar-brand page-scroll" href="index.php?page=home">Jix<span class="art">art</span></a>
+                <a class="navbar-brand page-scroll" href="home.html">Jix<span class="art">art</span></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
