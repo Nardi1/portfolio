@@ -1,5 +1,5 @@
 body {
-	background-color: #e9ebee;
+	background-color: #fff;
 	overflow-x: hidden;
 	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	webkit-tap-highlight-color: #fed136
@@ -16,18 +16,26 @@ body {
 .portfolio-caption {
 	max-width: 400px;
     margin: 0 auto;
-    background-color: #333;
+    background-color: #222;
     text-align: center;
     padding: 25px;
 }
+.portfolio-caption:hover {
+	text-decoration: none;
+}
 
-
+.titre-page{
+	color: #333 !important;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400 !important;
+	text-transform: uppercase;
+}
 footer{
 	width: 100%;
 	position: absolute;
 	bottom: 0px;
 	padding-top: 10px;
-	background:#333;
+	background:#222;
 	color: white;
 	font-family: 'Lato', sans-serif;
 	 font-weight: 100;
@@ -44,14 +52,19 @@ footer{
 .portfolio-caption {
 	max-width: 400px;
     margin: 0 auto;
-    background-color: #333;
+    background-color: #222;
     text-align: center;
-    padding: 25px;
+    padding: 03px;
+}
+.text-center{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	 font-weight: 100;
 }
 .navbar-default{
 	opacity: :.4;
 	height: 80px;
-	background: #333;
+	background: #222;
 	color: white;
 	border:none;
 }
@@ -117,17 +130,41 @@ footer{
 	margin-left: 15px;
 	transition-duration:.3s ;
 }
-.btn-primary{
+.btn-home{
 	border:1px solid #fff;
 	background-color: transparent;
 	transition-duration:.3s ;
 }
-.btn-primary:hover{
+.btn-home:hover{
 	border:1px solid #fff;
 	background-color: transparent;
 	transition-duration:.3s ;
-	margin: 5px 5px;
 	transform: scale(1.1);	
+}
+.btn-home:active{
+	border:1px solid #fff;
+	background-color: transparent;
+	transition-duration:.3s ;
+	transform: scale(1.1);	
+}
+.btn-home:visited{
+	border:1px solid #fff;
+	background-color: transparent;
+	transition-duration:.3s ;
+	transform: scale(1.1);	
+}
+.btn-home:focus{
+	border:1px solid #fff;
+	background-color: transparent;
+	transition-duration:.3s ;
+	transform: scale(1.1);	
+}
+.fa{
+transition-duration:.3s ;
+}
+.fa:hover{
+	color: white;
+	transition-duration:.3s ;
 }
 
 header {
@@ -143,6 +180,14 @@ header {
 	text-align: center;
 	color: #fff
 }
+.col-sm-3{
+	transition-duration:.3s;	
+}
+.col-sm-3:hover{
+	transition-duration:.3s;
+	transform: scale(1.1);	
+}
+
 header .intro-text {
 	padding-top: 100px;
 	padding-bottom: 50px
