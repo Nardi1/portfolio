@@ -15,7 +15,7 @@ function part($filesname) {
 		$pages = $config['menu'];
 		foreach ($pages as $files => $title) {
 			echo '<li>
-                        <a class="page-scroll" href="index.php?page=' . $files . '"> '. $title .'</a>
+                        <a class="page-scroll" href="' . $files . '.html"> '. $title .'</a>
                     </li>';
 		}; 
 	};
