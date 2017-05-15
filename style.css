@@ -132,7 +132,7 @@ footer{
 
 header {
 	height: 100vh;
-	background-image: url(http://jixart.fr/img/slide.jpg);
+	background-image: url(parts/img/slide.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
