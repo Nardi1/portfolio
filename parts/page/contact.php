@@ -1,4 +1,4 @@
-<div class="padd100">
+<div class="padd100"></div>
 <div class="hidden-sm hidden-md hidden-lg" style="padding-top:150px"></div>
 <div class="container">
   <div class="col-sm-6">
@@ -6,6 +6,11 @@
   <?php
   session_start();
   ?>
+  <?php if(array_key_exists('errors',$_SESSION)): ?>
+  <div class="alert alert-danger">
+  <?= implode('<br>', $_SESSION['errors']); ?>
+  </div>
+  <?php endif; ?>
   <?php if(array_key_exists('success',$_SESSION)): ?>
   <div class="alert alert-success">
   Votre Mail a bien été envoyé !
