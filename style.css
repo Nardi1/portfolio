@@ -104,6 +104,32 @@ footer{
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 }
+.intro-heading{
+
+	transition-duration:.3s ;
+}
+.intro-heading:hover{
+		transform: scale(1.2);	
+		transition-duration:.3s ;
+}
+.intro-heading:hover .art{
+
+	margin-left: 15px;
+	transition-duration:.3s ;
+}
+.btn-primary{
+	border:1px solid #fff;
+	background-color: transparent;
+	transition-duration:.3s ;
+}
+.btn-primary:hover{
+	border:1px solid #fff;
+	background-color: transparent;
+	transition-duration:.3s ;
+	margin: 5px 5px;
+	transform: scale(1.1);	
+}
+
 header {
 	height: 100vh;
 	background-image: url(http://jixart.fr/img/slide.jpg);
@@ -122,15 +148,14 @@ header .intro-text {
 	padding-bottom: 50px
 }
 header .intro-text .intro-lead-in {
-	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 22px;
 	line-height: 22px;
 	margin-bottom: 25px
 }
 header .intro-text .intro-heading {
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	font-family: 'lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 50px;
@@ -149,8 +174,8 @@ header .intro-text .intro-heading {
 		margin-bottom: 25px
 	}
 	header .intro-text .intro-heading {
-		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		text-transform: uppercase;
+		font-family: 'lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
 		font-weight: 700;
 		font-size: 75px;
 		line-height: 75px;
