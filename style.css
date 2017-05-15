@@ -82,7 +82,7 @@ footer{
 	margin-top: 15px;
 	opacity: 0.9;
 	transition-duration:.3s;
-
+	
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
 	transform: scale(1.1);	
@@ -90,7 +90,9 @@ footer{
 	opacity: 1;
 	transition-duration:.3s;
 }
-
+.navbar-nav {
+	background-color: #222;
+}
 .navbar-default .navbar-brand{
 
 	color: white;

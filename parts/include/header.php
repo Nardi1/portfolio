@@ -16,14 +16,12 @@
             <div class="navbar-header page-scroll">
                 <a class="navbar-brand page-scroll" href="home.html">Jix<span class="art">art</span></a>
             </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <?php
 	  				 menu();
 					?>
                 </ul>
-            </div>
+            
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->

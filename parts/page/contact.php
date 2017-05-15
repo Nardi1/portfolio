@@ -1,4 +1,5 @@
 <div class="padd100">
+<div class="hidden-sm hidden-md hidden-lg" style="padding-top:150px"></div>
 <div class="container">
   <div class="col-sm-6">
     <h2 class="titre-contact">Laissez moi un message</h2>

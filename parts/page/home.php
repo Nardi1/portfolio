@@ -1,3 +1,4 @@
+<div class="hidden-sm hidden-md hidden-lg" style="padding-top:200px"></div>
     <header>
         <div class="container">
             <div class="intro-text">
