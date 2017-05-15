@@ -2,6 +2,14 @@
 <div class="container">
   <div class="col-sm-6">
     <h2 class="titre-contact">Laissez moi un message</h2>
+  <?php
+  session_start();
+  ?>
+  <?php if(array_key_exists('success',$_SESSION)): ?>
+  <div class="alert alert-success">
+  Votre Mail a bien été envoyé !
+  </div>
+  <?php endif; ?>
     <form action="parts/send_form.php" method="post">
       <div class="form-group row">
         <label class="col-sm-12 form-control-label" for="name">Nom</label>
@@ -42,3 +50,8 @@
     </div>
   </div><!--end col 5-->
 </div><!--end container-->
+<?php
+unset($_SESSION['inputs']);
+  unset($_SESSION['success']);
+  unset($_SESSION['errors']);
+?>
