@@ -1,12 +1,8 @@
-
 <?php  
-
 require 'parts/functions.php';
 	$whitelist = ['home','creation', 'projet', 'contact'];
 
 	part("header");
-
-
 
 	if ($_GET['page'] == 'projet' && !isset($_GET['projet'])) {
 		part("404");
@@ -23,5 +19,5 @@ require 'parts/functions.php';
 		}
 	} }
 	part("footer");
-	?>
+?>
 

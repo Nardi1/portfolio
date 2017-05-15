@@ -14,9 +14,10 @@ function part($filesname) {
 		$config = require __DIR__ .'/config.php';
 		$pages = $config['menu'];
 		foreach ($pages as $files => $title) {
-			echo '<li class="nav-item"> <a class="nav-link" href="index.php?page=' . $files . '"> '. $title .'</a></li>';
+			echo '<li>
+                        <a class="page-scroll" href="index.php?page=' . $files . '"> '. $title .'</a>
+                    </li>';
 		}; 
 	};
 
 ?>
-
