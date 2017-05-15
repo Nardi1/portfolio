@@ -100,7 +100,12 @@ footer{
 .art{
 	transition-duration:.3s ;
 }
+.intro-lead-in{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
 header {
+	height: 100vh;
 	background-image: url(http://jixart.fr/img/slide.jpg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
