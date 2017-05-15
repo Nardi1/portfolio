@@ -10,22 +10,7 @@ body {
 .titre-page {
 	padding-bottom: 35px;
 }
-<<<<<<< HEAD
-
-footer{
-	padding-top: 10px;
-	background: #333;
-	color: white;
-	font-family: 'Lato', sans-serif;
-	 font-weight: 100;
-	 font-size: 14px;
-	}
-
-.footer-copyright{
-	font-family: 'Lato', sans-serif;
-	 font-weight: 100;
-	 font-size: 14px;
-	 text-align: center;
+.padd100 {
 	padding-top: 100px
 }
 .portfolio-caption {
@@ -48,8 +33,7 @@ header {
 	background-size: cover;
 	-o-background-size: cover;
 	text-align: center;
-	color: #fff;
-	
+	color: #fff
 }
 header .intro-text {
 	padding-top: 100px;
@@ -70,9 +54,6 @@ header .intro-text .intro-heading {
 	line-height: 50px;
 	margin-bottom: 25px
 }
-<<<<<<< HEAD
-
-=======
 @media (min-width:768px) {
 	header .intro-text {
 		padding-top: 300px;
@@ -94,4 +75,3 @@ header .intro-text .intro-heading {
 		margin-bottom: 50px
 	}
 }
->>>>>>> origin/master
