@@ -1,5 +1,5 @@
 <?php  
-require 'parts/functions.php';
+	require 'parts/functions.php';
 	$whitelist = ['home','creation', 'projet', 'contact'];
 
 	part("header");
