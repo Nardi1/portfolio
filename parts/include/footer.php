@@ -9,7 +9,7 @@
 
                     <p class="footer-copyright text-right">
                      <a href="" target="_blank"><i id="facebook-nav" class="fa fa-facebook" style="padding: 0px; padding-right: 30px"></i></a>
-                     <a href="mentions-legales" style="color: white">Mentions légals</a>
+                    Mentions légals
                      </p>
                 </div>
             </div>
