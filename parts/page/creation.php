@@ -11,7 +11,7 @@
                         while($row = $result->fetch_assoc()) { 
                         	?>
                         		
-        <div class="col-sm-3">
+        <div class="col-sm-3 creation-box">
 			<a href="index.php?page=projet&projet=<?=$row['id']?>"><img class="img-responsive center-block" src="<?=$row['image']?>">
 			<div class="portfolio-caption">
                         <h4 class="text-center"><?=$row['nom']?></h4>

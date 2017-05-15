@@ -57,9 +57,12 @@ footer{
     padding: 03px;
 }
 .text-center{
-	color: white;
+
 	font-family: 'Lato', sans-serif;
 	 font-weight: 100;
+}
+.portfolio-caption h4{
+	color: white;
 }
 .navbar-default{
 	opacity: :.4;
@@ -180,14 +183,40 @@ header {
 	text-align: center;
 	color: #fff
 }
-.col-sm-3{
+.creation-box{
 	transition-duration:.3s;	
 }
-.col-sm-3:hover{
+.creation-box:hover{
 	transition-duration:.3s;
 	transform: scale(1.1);	
 }
+.titre-contact{
+	font-family: "lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+}
+label{
+	font-family: "lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	font-weight: 400;
+}
+p{
+	font-family: "lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
 
+}
+.btn-primary{
+	background-color: #222;
+	border:solid 1px white;
+	color: white;
+	transition-duration:.3s;
+}
+.btn-primary:hover{
+	background-color: #222;
+	border:solid 1px white;
+	color: white
+	transition-duration:.3s;
+	transform: scale(1.1);	
+}
 header .intro-text {
 	padding-top: 100px;
 	padding-bottom: 50px
