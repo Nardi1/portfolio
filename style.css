@@ -49,12 +49,14 @@ footer{
     padding: 25px;
 }
 .navbar-default{
+	opacity: :.4;
 	height: 80px;
 	background: #333;
 	color: white;
 	border:none;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a{
+	margin-right: 20px;
 	color: white;
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
@@ -67,9 +69,36 @@ footer{
 
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	transform: scale(1.1);	
 	color: white;
 	opacity: 1;
 	transition-duration:.3s;
+}
+
+.navbar-default .navbar-brand{
+
+	color: white;
+	color: white;
+	margin-top: 12px;
+	font-size: 38px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+	transition-duration:.3s ;
+
+}
+.navbar-default .navbar-brand:hover{
+	color: white;
+	transform: scale(1.2);
+	transition-duration:.3s ;
+	
+}
+.navbar-default .navbar-brand:hover .art{
+	margin-left: 10px;
+	transition-duration:.3s ;
+}
+.art{
+	transition-duration:.3s ;
 }
 header {
 	background-image: url(http://jixart.fr/img/slide.jpg);
