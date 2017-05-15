@@ -13,8 +13,10 @@
                         while($row = $result->fetch_assoc()) { 
                         	?>
                         		
-        <div class="col-sm-3">
-			<img class="img-responsive center-block" src="<?=$row['image']?>" width="45%">
+        <div class="col-sm-6">
+			<img class="img-responsive center-block" src="<?=$row['image']?>">
+		</div>
+		 <div class="col-sm-6">
 			<p class="text-center"><?=$row['nom']?></p>
 			<p class="text-center"><?=$row['description']?></p>
 
