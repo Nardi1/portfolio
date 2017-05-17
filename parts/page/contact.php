@@ -3,9 +3,6 @@
 <div class="container">
   <div class="col-sm-6">
     <h2 class="titre-contact">Laissez moi un message</h2>
-  <?php
-  session_start();
-  ?>
   <?php if(array_key_exists('errors',$_SESSION)): ?>
   <div class="alert alert-danger">
   <?= implode('<br>', $_SESSION['errors']); ?>
@@ -26,7 +23,7 @@
       <div class="form-group row">
         <label class="col-sm-12 form-control-label" for="email">Mail</label>
         <div class="col-sm-12">
-          <input class="form-control" id="email" name="email" placeholder="Mail" required="email" type="text">
+          <input class="form-control" id="email" name="email" placeholder="Mail" required="email" type="email">
         </div>
       </div>
       <div class="form-group row">

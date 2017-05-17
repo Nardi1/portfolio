@@ -1,4 +1,5 @@
-<?php  
+<?php
+  session_start(); 
 	require 'parts/functions.php';
 	$whitelist = ['home','creation', 'projet', 'contact'];
 
