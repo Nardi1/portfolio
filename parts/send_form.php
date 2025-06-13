@@ -21,7 +21,7 @@ session_start();//on démarre la session
 if(!array_key_exists('name', $_POST) || $_POST['name'] == '') {
   $errors ['name'] = "vous n'avez pas renseigné votre nom";
   }
-if(!array_key_exists('email', $_POST) || $_POST['email'] == '' || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {// on verifie existence de la clé
+if(!array_key_exists('email', $_POST) || $_POST['email'] == '' || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {// on vérifie l’existence de la clé
   $errors ['email'] = "vous n'avez pas renseigné votre email";
   }
 if(!array_key_exists('message', $_POST) || $_POST['message'] == '') {
