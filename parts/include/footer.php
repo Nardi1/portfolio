@@ -8,7 +8,7 @@
                 <div class="col-xs-6 col-sm-6">
 
                     <p class="footer-copyright text-right">
-                    Mentions légals
+                    Mentions légales
                      </p>
                 </div>
             </div>
